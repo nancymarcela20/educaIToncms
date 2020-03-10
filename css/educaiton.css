@@ -1,0 +1,150 @@
+
+.form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 500px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+/*.button {*/
+/* Para posicionar los botones a la misma posición que los campos de texto */
+/*padding-left: 50px; *//* mismo tamaño a todos los elementos label */
+/*}*/
+
+/*button {*/
+/* Este margen extra representa aproximadamente el mismo espacio que el espacio
+   entre los labels y sus campos de texto */
+/*margin-left: .5em;
+}*/
+.input, .textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+#est-img{
+    display: inline-block;
+    vertical-align: inherit;
+}
+
+#est-embed{
+    display: inline-block;
+    vertical-align: inherit;
+}
+
+/* Tabla personalizada*/
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: pre-line;
+    }
+}
+
+table.tablecourses{
+    width:100%;
+}
+
+table.tablecourses th{
+    background-color: #aa1916;
+    color: #FFFFFF;
+    /* Alto de las celdas */
+    height: 50px;
+    font-size: 19px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border: 1px solid #000000;
+}
+
+table.tablecourses td{
+    text-align: center;
+    padding-top: 5px;
+}
+
+table.tablecourses tr{
+    border: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+table.tablecourses tr:nth-child(1) {
+    background-color: #DCDCDC;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+

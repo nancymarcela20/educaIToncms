@@ -1,0 +1,20 @@
+{
+    "nif": "123456",
+    "nombre": "farid",
+    "ape1": "penaranda",
+    "edad": 21,
+    "sexo": "H",
+    "casado": false,
+    "coberturas": {
+        "oftalmologia": true,
+        "dental": true,
+        "fecundacionInVitro": false
+    },
+    "enfermedades": {
+        "corazon": false,
+        "estomacal": true,
+        "rinyones": false,
+        "alergia": true,
+        "nombreAlergia": "gripe"
+    }
+}
