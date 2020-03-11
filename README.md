@@ -73,7 +73,8 @@ Ingresar a GitHub y crear un repo
 ```
 ## Código de conducta 
 
-A este repositorio actualmente se le esta dando mantenimiento por parte del grupo de desarrollo de la Unidad de Educación Virtual de la UFPS. Es un desarrollo con código PHP.
+A este repositorio actualmente se le esta dando mantenimiento por parte del grupo de desarrollo de la Unidad de Educación Virtual de la UFPS. 
+Es un desarrollo con código PHP y como herreamienta para compilación de código se hace uso de netbeans.
 
 ## Autor/es
 ---
