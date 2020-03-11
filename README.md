@@ -63,18 +63,20 @@ Ingresar a GitHub y crear un repo
 ### 3. Hacer uso de ramas de prueba para revisar la información antes de fusionarla con la rama master remota
 ```r
 3.1 Crear rama de proyecto en GitHub
+3.2 Configurar el repo remoto para que al fusionar ramas adicionales con la rama master, estas ramas sean borradas
+    después de efectuar la mezcla.
 3.2 Realizar cambios locales
 3.3 Crear rama local
     * git checkout -b nombreRama
 3.4 Subir cambios a la rama remota
     * git push -u origin nombreRama
 3.5 Ubicar la rama de prueba en GitHub donde se subieron los cambios y se solicita el merge.
-3.6 Revisar solicitud y aprobar fusión con la rama master
+3.6 Revisar solicitud y aprobar fusión con la rama master.
 ```
 ## Código de conducta 
 
 A este repositorio actualmente se le esta dando mantenimiento por parte del grupo de desarrollo de la Unidad de Educación Virtual de la UFPS. 
-Es un desarrollo con código PHP y como herreamienta para compilación de código se hace uso de netbeans.
+Es un desarrollo con código PHP y como herreamienta para compilación de código se hace uso de netbeans versión 8.2.
 
 ## Autor/es
 ---
