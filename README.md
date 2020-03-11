@@ -68,7 +68,8 @@ Ingresar a GitHub y crear un repo
     * git checkout -b nombreRama
 3.4 Subir cambios a la rama remota
     * git push -u origin nombreRama
-3.5 Ubicarnos en git en la rama de prueba donde se subieron los cambios y se solicita el merge.
+3.5 Ubicar la rama de prueba en GitHub donde se subieron los cambios y se solicita el merge.
+3.6 Revisar solicitud y aprobar fusión con la rama master
 ```
 ## Código de conducta 
 
