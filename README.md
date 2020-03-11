@@ -61,7 +61,15 @@ Ingresar a GitHub y crear un repo
 ```
 
 ### 3. Hacer uso de ramas de prueba para revisar la información antes de fusionarla con la rama master remota
-
+```r
+3.1 Crear rama de proyecto en GitHub
+3.2 Realizar cambios locales
+3.3 Crear rama local
+    * git checkout -b nombreRama
+3.4 Subir cambios a la rama remota
+    * git push -u origin nombreRama
+3.5 Ubicarnos en git en la rama de prueba donde se subieron los cambios y se solicita el merge.
+```
 ## Código de conducta 
 
 A este repositorio actualmente se le esta dando mantenimiento por parte del grupo de desarrollo de la Unidad de Educación Virtual de la UFPS. Es un desarrollo con código PHP.
