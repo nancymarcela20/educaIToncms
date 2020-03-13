@@ -108,7 +108,7 @@ $_myvisitantes->obtenerVisitantes();
                 </div>
                 <!-- End Social Links -->
             </div>
-            <div class="alert alert-warning">Importante: Este sitio web y todo su contenido corresponden a un proyecto en ejecución de Educación Virtual en proceso de Registro Calificado. Aunque se encuentre público su uso es restringido para los fines del proyecto. Si requiere informaci&oacute;n adicional, por favor cont&aacute;ctenos a  uvirtual@ufps.edu.co</div>
+            <div class="alert alert-warning"><b>Importante:</b> Este sitio web y todo su contenido corresponden a un proyecto en ejecución de Educación Virtual en proceso de Registro Calificado. Aunque se encuentre público su uso es restringido para los fines del proyecto. Si requiere informaci&oacute;n adicional, por favor cont&aacute;ctenos a  uvirtual@ufps.edu.co</div>
             
         </div>
     </div><!--/copyright-->

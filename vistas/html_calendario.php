@@ -154,7 +154,7 @@ if ($_enlaces[0] != "error") {
     echo calendario($_anno, $_mes, 0, $_activo, $_festivos, $_conactividad);
     if ($_pick) {
         echo "<div style=\"width:90%; margin:auto; text-align:center; margin-top:20px;\">";
-        if ($_GET['idtipoc'] > 0) {
+        if (!empty($_GET['idtipoc'])) {
             $_tipoinformacion = strtolower($_myInfo->obtenerTipoCalendario($_activo));
             if ($_tipoinformacion == 'error') {
                 echo "<h3 class=\"simple\">Lo sentimos, no encontramos actividades para el tipo de calendario que ha solicitado; le pedimos el favor de verificar su solicitud.</h3>";

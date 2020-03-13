@@ -1788,7 +1788,7 @@
       $_mbd->conectar();
       $_e = 1;
       if ($_mbd->bd) {
-        $_sql = "SELECT id, fechainicial, fechafinal, horainicial, horafinal, descripcion, urldestino, afuera FROM actividades WHERE fechainicial >= '".Date("Y-m-d")."' AND activo = 1 ORDER BY fechainicial, fechafinal, horainicial, horafinal LIMIT ".($pagina*$itxpag).",".($pagina*$itxpag+$itxpag);
+        $_sql = "SELECT id, fechainicial, fechafinal, horainicial, horafinal, descripcion, urldestino, afuera FROM actividades WHERE fechafinal >= '".Date("Y-m-d")."' AND activo = 1 ORDER BY fechainicial, fechafinal, horainicial, horafinal LIMIT ".($pagina*$itxpag).",".($pagina*$itxpag+$itxpag);
         $_resultado = $_mbd->bd->query($_sql);
         if ($_resultado) {
           if ($_resultado->num_rows !== 0) {
