@@ -10,6 +10,7 @@
         for ($_a = 0; $_a < count($_enlaces); $_a++) {
             echo "              <a href=\"./index.php?modulo=principal&idtipoi=" . $_enlaces[$_a][0] . "\"><button class=\"ufps-btn-accordionlike\">" . $_enlaces[$_a][1] . "</button></a>\n";
         }
+        echo "              <a href=\"./index.php?modulo=infoveroferta\"><button class=\"ufps-btn-accordionlike\">" . "Ofertas Laborales" . "</button></a>\n";
     }
     ?>
 </div>

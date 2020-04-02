@@ -97,6 +97,31 @@
                         }
                         break;
                     }
+                case 'infoveroferta': {
+                        ?>
+                        <div class="container content profile" style="position: relative;">
+                            <div class="row margin-bottom-30">
+                                <div id="informacionContent" class="col-md-8 mb-margin-bottom-30 shadow-wrapper">
+                                    <?php
+                                    include ("html_ofertas.php");
+                                    ?>
+                                </div><!--informacionContent-->
+                                <div class="col-md-4">
+                                    <?php
+                                    $_nofirst = 0;                                    
+                                    $_parametroP = "right";
+                                    include ("html_proximas.php");
+                                    $_param = "";
+                                    include ("html_galerias.php");
+                                    include ("html_listacorreo.php");
+                                    include ("html_pad.php");
+                                    ?>
+                                </div><!--col-md-4-->
+                            </div><!-- row margin-bottom-30-->
+                        </div><!--container content profile-->
+                        <?php
+                        break;
+                    }
                 case 'principal':
                 case 'verinformacion': {
                         ?>

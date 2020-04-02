@@ -22,7 +22,7 @@ class DesEncryptor
         $this->_key = $key;
         $this->_iv = $iv;
         $this->_encrypt = $encrypt;
-
+        
         $this->_cipher = mcrypt_module_open(MCRYPT_DES, '', MCRYPT_MODE_CBC, '');
         mcrypt_generic_init($this->_cipher, $this->_key, $this->_iv);
     }

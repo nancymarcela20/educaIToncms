@@ -31,7 +31,7 @@ if (isset($_GET['ixp'])) {
 if ($_pick) {
     ?>
     <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px; border-bottom: 3px solid #aa1916; padding: 0;">
-        <h1 class="pull-left" style="font-size:36px;">Oferta laboral</h1>
+        <h1 class="pull-left" style="font-size:36px;">Ofertas laborales</h1>
 
         <div class="gdl-custom-sidebar-title-m"><div class="ufps-tooltip" style="margin-top:30px; float:right; position:absolute; right:5px; top: 0px;"><span style="float:right"><img src="rsc/img/tune.png" style="cursor:pointer;" id="tuneBtn" onClick="TogglePopUp(event, 'ofertas')"></span><span class="ufps-tooltip-content-left" style="font-size:14px; font-weight:normal; margin-right:5px;">Ajustar filtro</span></div></div>
         <div style="clear:both;"></div>
