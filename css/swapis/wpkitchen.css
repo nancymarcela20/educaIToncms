@@ -1573,7 +1573,7 @@ p.pnormal {
   border: 2px dotted #eee;
   width:70%;
   height:100px;
-  background: #e0e0e0 url('../../img/upload.png') no-repeat center;
+  background: #e0e0e0 url('../../rsc/img/upload.png') no-repeat center;
   margin-bottom:15px;
 }
 

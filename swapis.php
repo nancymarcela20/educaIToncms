@@ -207,7 +207,7 @@ if (isset($_POST['accion'])) {
                     $_msj = 0;
                     if (isset($_FILES['etiqueta']['name'])) {
                         if ($_FILES['etiqueta']['name']) {
-                            $target_dir = "rsc/img/";
+                            $target_dir = "../rsceducaiton/img/";
                             $target_file = $target_dir . basename($_FILES['etiqueta']['name']);
                             $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
                             $check = getimagesize($_FILES['etiqueta']['tmp_name']);
@@ -370,7 +370,7 @@ if (isset($_POST['accion'])) {
                     }
                     $_msj = 0;
                     if ($_FILES['etiqueta']['name']) {
-                        $target_dir = "rsc/img/";
+                        $target_dir = "../rsceducaiton/img/";
                         $target_file = $target_dir . basename($_FILES['etiqueta']['name']);
                         $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
                         $check = getimagesize($_FILES['etiqueta']['tmp_name']);
@@ -493,7 +493,7 @@ if (isset($_POST['accion'])) {
                     }
                     $_msj = 0;
                     if ($_FILES['etiqueta']['name']) {
-                        $target_dir = "rsc/img/";
+                        $target_dir = "../rsceducaiton/img/";
                         $target_file = $target_dir . basename($_FILES['etiqueta']['name']);
                         $clipped_file = $target_dir . "clp_" . basename($_FILES['etiqueta']['name']);
                         $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
@@ -692,7 +692,7 @@ if (isset($_POST['accion'])) {
                     }
                     $_msj = 0;
                     if ($_FILES['etiqueta']['name']) {
-                        $target_dir = "rsc/img/";
+                        $target_dir = "../rsceducaiton/img/";
                         $target_file = $target_dir . basename($_FILES['etiqueta']['name']);
                         $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
                         $check = getimagesize($_FILES['etiqueta']['tmp_name']);
@@ -797,7 +797,7 @@ if (isset($_POST['accion'])) {
                             }
                             $_GET['msj'] = 0;
                             if ($_FILES['etiqueta']['name']) {
-                                $target_dir = "rsc/img/";
+                                $target_dir = "../rsceducaiton/img/";
                                 $target_file = $target_dir . basename($_FILES['etiqueta']['name']);
                                 $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
                                 $check = getimagesize($_FILES['etiqueta']['tmp_name']);
