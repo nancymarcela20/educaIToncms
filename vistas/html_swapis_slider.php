@@ -55,8 +55,8 @@ if (isset($_GET['msj'])) {
                         echo "<p>La imagen elegida tiene unas dimensiones menores a las requeridas</p>";
                     } elseif ($_GET['msj'] == 12) {
                         echo "<p>Ha ocurrido un error redimensionando la imagen</p>";
-                    //} elseif ($_GET['msj'] == 13) {
-                      //  echo "<p>Ha ocurrido un error subiendo la imagen al servidor</p>";
+                    } elseif ($_GET['msj'] == 13) {
+                        echo "<p>Ha ocurrido un error subiendo la imagen al servidor</p>";
                     } elseif ($_GET['msj'] == 14) {
                         echo "<p>La imagen debe ser JPG, GIF o PNG</p>";
                     } elseif ($_GET['msj'] == 15) {
